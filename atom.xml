@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://2050188619.github.io</id>
     <title>Peaky</title>
-    <updated>2021-03-31T14:02:02.346Z</updated>
+    <updated>2021-03-31T14:20:19.132Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://2050188619.github.io"/>
     <link rel="self" href="https://2050188619.github.io/atom.xml"/>
@@ -26,8 +26,55 @@
         <link href="https://2050188619.github.io/post/di-er-ge-jie-mian/">
         </link>
         <updated>2021-03-31T08:12:04.000Z</updated>
-        <content type="html"><![CDATA[<p>##代码块：</p>
+        <content type="html"><![CDATA[<h2 id="1代码块">1.代码块：</h2>
 <pre><code>这里是代码块展示
+java
+</code></pre>
+<h2 id="2标题">2.标题</h2>
+<pre><code># 1级标题
+## 2级标题
+#### 4级标题
+</code></pre>
+<h2 id="3字体">3.字体</h2>
+<p>//加粗<br>
+<strong>等不到天亮</strong><br>
+//代码高亮显示<br>
+<mark>我是孙红雷</mark><br>
+//删除线<br>
+<s>被删除的文字</s><br>
+//斜体<br>
+<em>斜体内容</em></p>
+<h2 id="4引用">4.引用</h2>
+<pre><code>&gt; 作者：
+&gt;&gt; 作者：
+&gt;&gt;&gt; 作者：
+</code></pre>
+<blockquote>
+<p>作者：</p>
+<blockquote>
+<p>作者：</p>
+<blockquote>
+<p>作者：</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<h2 id="5分割线">5.分割线</h2>
+<pre><code>---
+***
+</code></pre>
+<h2 id="6图片插入">6.图片插入</h2>
+<pre><code>//在线图片
+![]()
+//本地图片
+</code></pre>
+<h2 id="7超链接">7.超链接</h2>
+<pre><code>[]()
+</code></pre>
+<h2 id="8列表">8.列表</h2>
+<pre><code>//无需列表
+-目录1
+-目录2
+-目录3
 </code></pre>
 ]]></content>
     </entry>
