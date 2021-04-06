@@ -4,9 +4,9 @@
 <meta name="description" content=""/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-<title>Java概述 | Peaky</title>
+<title>JAVA中&amp;&amp;和&amp;、||和|的区别 | Peaky</title>
 
-<link rel="shortcut icon" href="https://2050188619.github.io/favicon.ico?v=1617718714620">
+<link rel="shortcut icon" href="https://2050188619.github.io/favicon.ico?v=1617720058024">
 
 <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://2050188619.github.io/styles/main.css">
@@ -77,7 +77,7 @@
             
         </div>
         <div style="text-align: center">
-            <form id="gridea-search-form" style="position: relative" data-update="1617718714620" action="/search/index.html">
+            <form id="gridea-search-form" style="position: relative" data-update="1617720058024" action="/search/index.html">
                 <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
                 <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
             </form>
@@ -89,7 +89,7 @@
         <div class="post-detail gt-bg-theme-color-second">
             <article class="gt-post-content">
                 <h2 class="post-title">
-                    Java概述
+                    JAVA中&amp;&amp;和&amp;、||和|的区别
                 </h2>
                 <div class="post-info">
                     <time class="post-time gt-c-content-color-first">
@@ -98,7 +98,12 @@
                     
                 </div>
                 <div class="post-content">
-                    <p>asd</p>
+                    <p>if(a<mark>1 &amp;&amp; b</mark>2) 这是说既要满足a=1,也要满足b=2;<br>
+if(a<mark>1 || b</mark>2) 这是说只需要满足a=1,或者满足b=2;<br>
+而a &amp; b和 a | b是二进制的与或运算<br>
+&amp;同为1时为1，否则为0；<br>
+| 同为0时为0，否则为1；</p>
+<h1 id="短路求值">短路求值</h1>
 
                 </div>
             </article>

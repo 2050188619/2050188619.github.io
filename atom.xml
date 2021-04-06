@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://2050188619.github.io</id>
     <title>Peaky</title>
-    <updated>2021-04-06T14:22:49.514Z</updated>
+    <updated>2021-04-06T14:41:00.312Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://2050188619.github.io"/>
     <link rel="self" href="https://2050188619.github.io/atom.xml"/>
@@ -11,12 +11,17 @@
     <icon>https://2050188619.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Peaky</rights>
     <entry>
-        <title type="html"><![CDATA[Java概述]]></title>
+        <title type="html"><![CDATA[JAVA中&&和&、||和|的区别]]></title>
         <id>https://2050188619.github.io/post/java-gai-shu/</id>
         <link href="https://2050188619.github.io/post/java-gai-shu/">
         </link>
         <updated>2021-04-06T14:16:52.000Z</updated>
-        <content type="html"><![CDATA[<p>asd</p>
+        <content type="html"><![CDATA[<p>if(a<mark>1 &amp;&amp; b</mark>2) 这是说既要满足a=1,也要满足b=2;<br>
+if(a<mark>1 || b</mark>2) 这是说只需要满足a=1,或者满足b=2;<br>
+而a &amp; b和 a | b是二进制的与或运算<br>
+&amp;同为1时为1，否则为0；<br>
+| 同为0时为0，否则为1；</p>
+<h1 id="短路求值">短路求值</h1>
 ]]></content>
     </entry>
     <entry>
