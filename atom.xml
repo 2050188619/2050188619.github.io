@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://2050188619.github.io</id>
     <title>Peaky</title>
-    <updated>2021-03-31T14:20:19.132Z</updated>
+    <updated>2021-04-06T14:21:06.528Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://2050188619.github.io"/>
     <link rel="self" href="https://2050188619.github.io/atom.xml"/>
@@ -11,13 +11,30 @@
     <icon>https://2050188619.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Peaky</rights>
     <entry>
-        <title type="html"><![CDATA[第一个界面]]></title>
+        <title type="html"><![CDATA[Java概述]]></title>
+        <id>https://2050188619.github.io/post/java-gai-shu/</id>
+        <link href="https://2050188619.github.io/post/java-gai-shu/">
+        </link>
+        <updated>2021-04-06T14:16:52.000Z</updated>
+        <content type="html"><![CDATA[<p>asd</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HelloWorld]]></title>
         <id>https://2050188619.github.io/post/di-yi-ge-jie-mian/</id>
         <link href="https://2050188619.github.io/post/di-yi-ge-jie-mian/">
         </link>
         <updated>2021-03-31T08:18:46.000Z</updated>
-        <content type="html"><![CDATA[<p>123<br>
-3211</p>
+        <content type="html"><![CDATA[<p>首先下载jdk，安装配置好环境后，新建一个Java文件，命名为HelloWorld。<br>
+win+R进入运行界面，输入cmd进入Widow命令提示符。<br>
+先用cd命令进入文件所在位置，输入javac HelloWorld.java<br>
+编译成功后再输入java HelloWorld即可运行程序</p>
+<pre><code>public class HelloWorld{
+	public static void main(String[] args){
+	System.out.println(&quot;HelloWorld&quot;);
+    }
+}
+</code></pre>
 ]]></content>
     </entry>
     <entry>
