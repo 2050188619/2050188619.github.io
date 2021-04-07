@@ -6,7 +6,7 @@
 
 <title>java概念和环境搭建 | Peaky</title>
 
-<link rel="shortcut icon" href="https://2050188619.github.io/favicon.ico?v=1617774162180">
+<link rel="shortcut icon" href="https://2050188619.github.io/favicon.ico?v=1617774347278">
 
 <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://2050188619.github.io/styles/main.css">
@@ -77,7 +77,7 @@
             
         </div>
         <div style="text-align: center">
-            <form id="gridea-search-form" style="position: relative" data-update="1617774162180" action="/search/index.html">
+            <form id="gridea-search-form" style="position: relative" data-update="1617774347278" action="/search/index.html">
                 <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
                 <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
             </form>
@@ -103,15 +103,25 @@
 <blockquote>
 <p>1.1硬件：<br>
 输入设备，输出设备，存储设备，处理器，显卡，声卡，机箱。<br>
-1.2软件：<br>
-1.2.1系统软件：windows,linux,mac,unix,dos。<br>
+1.2软件：</p>
+<blockquote>
+<p>1.2.1系统软件：windows,linux,mac,unix,dos。<br>
 1.2.2应用软件：<br>
-B/S架构软件：通过浏览器访问应用软件。<br>
-- 优点：使用方便无需安装客户端，数据安全（数据存放在服务器中），升级方便，更新只需要刷新浏览器即可。<br>
-- 缺点：界面简陋，服务器压力大。<br>
-C/S架构软件：<br>
-- 优点：服务器压力小，界面比较精美。<br>
-- 缺点：必须安装客户端才能使用，每次更新客户端都需要跟着更新，数据安全稍低。</p>
+B/S架构软件：通过浏览器访问应用软件。</p>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>优点：使用方便无需安装客户端，数据安全（数据存放在服务器中），升级方便，更新只需要刷新浏览器即可。<br>
+缺点：界面简陋，服务器压力大。<br>
+C/S架构软件：</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>优点：服务器压力小，界面比较精美。<br>
+缺点：必须安装客户端才能使用，每次更新客户端都需要跟着更新，数据安全稍低。</p>
+</blockquote>
+</blockquote>
 </blockquote>
 </li>
 <li>2.程序
@@ -150,21 +160,25 @@ C/S架构软件：<br>
 </code></pre>
 <hr>
 <ul>
-<li>
-<p>4.Java环境搭建<br>
-4.1:卸载软件:控制面板-&gt;程序和功能-&gt;选择要卸载软件右键卸载-&gt;手动删除残留的文件.<br>
-4.2:安装jdk步骤:<br>
-4.2.1:安装jdk,注意选择安装目录.eg:D:jdk1.8<br>
-- bin:存放java命令<br>
-- jre:java运行环境<br>
-- lib:存放Java所需的Jar包<br>
-- src.zip:存放Java源码包.</p>
-<pre><code>  4.2.2:安装jre,注意选择安装目录.eg:D:jdk1.8jre
-  4.2.3:测试jdk是否安装好:cmd-&gt;进入dos系统-&gt;进入jdk安装目录\bin-&gt;输入命令测试
+<li>4.Java环境搭建
+<blockquote>
+<p>4.1:卸载软件:控制面板-&gt;程序和功能-&gt;选择要卸载软件右键卸载-&gt;手动删除残留的文件.<br>
+4.2:安装jdk步骤:</p>
+<blockquote>
+<p>4.2.1:安装jdk,注意选择安装目录.eg:D:jdk1.8</p>
+</blockquote>
+</blockquote>
+<pre><code>  		- bin:存放java命令
+  		- jre:java运行环境
+  		- lib:存放Java所需的Jar包
+  		- src.zip:存放Java源码包.
+
+  &gt;&gt;4.2.2:安装jre,注意选择安装目录.eg:D:jdk1.8jre
+  &gt;&gt;4.2.3:测试jdk是否安装好:cmd-&gt;进入dos系统-&gt;进入jdk安装目录\bin-&gt;输入命令测试
   		- java -version
   		- javac
   		- java
-  4.2.4:配置Java环境:让计算机在任何地方都可以识别Java命令.
+  &gt;&gt;4.2.4:配置Java环境:让计算机在任何地方都可以识别Java命令.
   			选中我的计算机右键属性-&gt;高级系统配置-&gt;环境变量-&gt;系统变量配置
   			JAVA_HOME:D:\jdk1.8
   			path:在path路径中开头%JAVA_HOME%\bin;
