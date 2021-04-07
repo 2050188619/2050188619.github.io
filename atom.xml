@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://2050188619.github.io</id>
     <title>Peaky</title>
-    <updated>2021-04-07T05:32:35.969Z</updated>
+    <updated>2021-04-07T05:36:47.278Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://2050188619.github.io"/>
     <link rel="self" href="https://2050188619.github.io/atom.xml"/>
@@ -48,16 +48,17 @@ C/S架构软件：<br>
             JavaSE:java平台标准版，java核心语法。用作桌面应用程序。
             JavaEE:java平台企业版，java企业级开发。用作面向Internet应用程序。
             JavaME:java平台微型版，嵌入式或者手机端开发，如机顶盒和手机移动开发。
+ 
+    3.1.5 Java应用
+		    1.作面向桌面应用程序.
+			2.面向internet应用程序.
+			3.用来作机顶盒,或手机移动端开发.
+			4.为大型企业提供解决方案.
+			5.学习大数据基础.
+    3.1.6 开发工具：记事本，notepad++,eclipse,myeclipse,idea。
+    3.1.7 java开发工具包，其中包括jvm,jre,编译器等等。
 </code></pre>
-<pre><code>3.1.5 Java应用
-	    1.作面向桌面应用程序.
-		2.面向internet应用程序.
-		3.用来作机顶盒,或手机移动端开发.
-		4.为大型企业提供解决方案.
-		5.学习大数据基础.
-3.1.6 开发工具：记事本，notepad++,eclipse,myeclipse,idea。
-3.1.7 java开发工具包，其中包括jvm,jre,编译器等等。
-</code></pre>
+<hr>
 <p>4.Java环境搭建<br>
 4.1:卸载软件:控制面板-&gt;程序和功能-&gt;选择要卸载软件右键卸载-&gt;手动删除残留的文件.<br>
 4.2:安装jdk步骤:<br>
@@ -76,7 +77,8 @@ C/S架构软件：<br>
 				JAVA_HOME:D:\jdk1.8
 				path:在path路径中开头%JAVA_HOME%\bin;
 		  部分电脑:
-				classpath:.;%JAVA_HOME%\lib\dt.jar;                                           %JAVA_HOME%\lib\tools.jar
+				classpath:
+                .;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar
 </code></pre>
 ]]></content>
     </entry>
